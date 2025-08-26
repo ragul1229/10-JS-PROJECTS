@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🐍 Snake</h1>
+
+  <div class="hud">
+    <div>Score: <span id="score">0</span></div>
+    <div>High Score: <span id="highScore">0</span></div>
+  </div>
+
+  <canvas id="game" width="400" height="400"></canvas>
+
+  <div class="controls">
+    <button id="pauseBtn">Pause</button>
+    <button id="restartBtn">Restart</button>
+  </div>
+
+  <p class="hint">
+    ▶ Use Arrow Keys or WASD.<br/>
+    ▶ Don’t hit the walls or yourself.<br/>
+    ▶ Press <kbd>P</kbd> to pause/resume.
+  </p>
+
+  <script src="script.js"></script>
+</body>
+</html>

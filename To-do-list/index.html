@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Todo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Todo List</h1>
+
+  <div class="todo-container">
+    <input type="text" id="taskInput" placeholder="Enter a task">
+    <button onclick="addTask()">Add Task</button>
+  </div>
+
+  <ul id="taskList"></ul>
+
+  <div class="stats">
+    <p>Total Tasks: <span id="totalCount">0</span></p>
+    <p>Completed: <span id="completedCount">0</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

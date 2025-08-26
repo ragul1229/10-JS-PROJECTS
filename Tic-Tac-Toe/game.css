@@ -1,0 +1,72 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Board styling */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  margin: 20px auto;
+  width: max-content;
+}
+
+.board div {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border: 2px solid #444;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.board div:hover {
+  background: #f1f1f1;
+}
+
+/* Status message */
+.status {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Score display */
+.score {
+  margin: 15px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Restart button */
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #45a049;
+}

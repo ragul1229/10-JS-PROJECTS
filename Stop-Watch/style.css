@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+.stopwatch {
+  background: #fff;
+  padding: 20px;
+  margin: auto;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#display {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  color: #222;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  opacity: 0.8;
+}
+
+button:nth-child(1) {
+  background: #4CAF50;
+  color: white;
+}
+
+button:nth-child(2) {
+  background: #f39c12;
+  color: white;
+}
+
+button:nth-child(3) {
+  background: #e74c3c;
+  color: white;
+}

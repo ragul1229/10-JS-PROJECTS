@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Picker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎨 Color Picker</h1>
+
+  <input type="color" id="colorInput" value="#ff0000">
+  
+  <div class="color-display" id="colorDisplay"></div>
+  
+  <p>HEX: <span id="hexValue">#ff0000</span></p>
+  <p>RGB: <span id="rgbValue">rgb(255, 0, 0)</span></p>
+
+  <button onclick="copyColor()">Copy HEX</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
