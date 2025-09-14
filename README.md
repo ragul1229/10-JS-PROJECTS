@@ -13,7 +13,7 @@ Each project is simple, interactive, and fun to use — a great way to strengthe
 5. ⏳ [Countdown Timer](./Count-Down-Timer)  
 6. 🔢 [Guess a Number](./Guess%20a%20Number)  
 7. ❓ [Quiz App](./Quiz)  
-8. 🐍 [Snake Game](./Snake-Game)  
+8. 🐍 [Snake Game](./Snake-Game)
 9. ⏱️ [Stopwatch](./Stop-Watch)  
 10. ❌⭕ [Tic-Tac-Toe](./Tic-Tac-Toe)  
 
